@@ -63,3 +63,74 @@ main nav button:last-child{
     color: rgba(190, 188, 188, 0.74);
     background-color: transparent;
 }
+
+main .content{
+    padding:  40px 60px;
+    color: rgba(40, 40, 40, 1);
+}
+
+main .content .task{
+    margin-bottom: 50px;
+}
+main .content .task h2{
+    font-size: 1.5rem;
+}
+
+main .content .task li{
+    font-size: 1.1rem;
+    list-style: none;
+    margin: 20px 10px;
+}
+
+main .content .task li .icon{
+    border: 1px solid;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+
+main .content .task li .cross.icon{
+    color: red;
+    border-color: red;
+}
+
+main .content .task li .check.icon{
+    color: green;
+    border-color: green;
+}
+
+main .content .task li .label{
+    border-radius: 15px;
+    font-size: 0.75em;
+    padding: 6px 8px;
+    color: white;
+}
+
+main .content .task li .editorial.label{
+    background-color: #45abea;
+}
+
+main .content .task li .goals.label{
+    background-color: #9c72e4;
+}
+
+main .content .task li .recruiting.label{
+    background-color: #64c0a9;
+}
+
+main .content .task li .mobile.label{
+    background-color: #f29e33;
+}
+
+main .content .task li .website.label{
+    background-color: #d863a1;
+}
+
+main .content .task li .sales.label{
+    background-color: #b0c926;
+}
+
+
